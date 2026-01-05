@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "The Fool",
+    "año": "2025",
+    "description": "La carta del Tarot 'El Loco' representada con el dios griego de la velocidad Hermes",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1GvQh_PdhnAzSlWEICOa-K00hym9IszU4"
+  },
+  {
+    "id": 2,
+    "title": "Tears of Sorrow",
+    "año": "2022",
+    "description": "Una joven monja con hermosos ojos azules y lagrimas de sangre viajando por sus mejillas",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1-qT06ArVsJjOlreKBTIg5nG25UpZfdGW"
+  },
+  {
+    "id": 3,
+    "title": "Pink Jellyfish",
+    "año": "2022",
+    "description": "Una medusa rosa acomapñada de burbujas, a la deriva de la calma de un piadoso cuerpo de agua",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1jFc4lMpyUcERIiRwF6FKD_VTWQZRRop-"
+  },
+  {
+    "id": 4,
+    "title": "Koi Pond",
+    "año": "2023",
+    "description": "Un pez koi nadando serenamente cerca de una flor de loto situada encima de un nenufar",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1SKUT6PIkRSRvHotUa8byfGVSuHFmtHV1"
+  },
+  {
+    "id": 5,
+    "title": "Refreshing Youth",
+    "año": "2023",
+    "description": "Ilustracion insparada por el glamour de los años 50 de Hollywood mostrando la hermosura y elegancia de la dama",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1CAS64iFec4ddbbGXlXr0CmGKgsC8dIc7"
+  },
+  {
+    "id": 6,
+    "title": "Makima",
+    "año": "2023",
+    "description": "Una entidad angelical y demoniaca; posee unos ojos que controlan a aquellos que osan establacer contacto",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1QXx9CuA4JqXBJ5LZnP-WBcV1nWWDozY-"
+  },
+  {
+    "id": 7,
+    "title": "Peaceful Breeze",
+    "año": "2023",
+    "description": "Una joven con cabello dorado vestida con colores vibrantes resaltada por el hermoso paisaje y atmosfera",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1fQ3k2_P0u1dGyt4Fxx4GCp231MfzZwPZ"
+  },
+  {
+    "id": 8,
+    "title": "Mirror Dream",
+    "año": "2023",
+    "description": "Una joven vestida de blanco sonriendo a su reflejo. El color opaco y verde del baño expresa incertidumbre",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1Oya_jEa0HRrs1A_Ok52geoHdctmKjdfi"
+  },
+  {
+    "id": 9,
+    "title": "Strings",
+    "año": "2025",
+    "description": "La figura de gran tamaño utiliza hilos para guiar todos los pequeños movimientos de la diminuta bailarina",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1BZZCpRdaBX8WC39MJThb1vIbtIAnffUQ"
+  }
+]
