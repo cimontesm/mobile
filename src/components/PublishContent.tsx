@@ -10,6 +10,8 @@ const PublishContent: React.FC = () => {
   // Estado para manejar las imágenes seleccionadas
   const [previews, setPreviews] = useState<string[]>([]);
 
+  const allowedTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp'];
+
   const handleButtonClick = () => {
     // Cuando hacen clic en el botón, activamos el input manualmente
     fileInputRef.current?.click();
@@ -18,10 +20,22 @@ const PublishContent: React.FC = () => {
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const files = e.target.files;
     if (files) {
-      // Convertimos los archivos a URLs temporales para verlas
-      const newPreviews = Array.from(files).map(file => URL.createObjectURL(file));
+      // 2. Filtramos los archivos antes de procesarlos
+      const validFiles = Array.from(files).filter(file =>
+        allowedTypes.includes(file.type)
+      );
+
+      if (validFiles.length !== files.length) {
+        alert("Solo se permiten imágenes JPG, PNG o WebP.");
+      }
+
+      // Convertimos solo los archivos válidos
+      const newPreviews = validFiles.map(file => URL.createObjectURL(file));
       setPreviews((prev) => [...prev, ...newPreviews]);
     }
+
+    // Opcional: Limpiar el input para permitir subir el mismo archivo si se borra
+    e.target.value = "";
   };
 
   return (
@@ -37,6 +51,8 @@ const PublishContent: React.FC = () => {
         ref={fileInputRef}
         style={{ display: 'none' }}
         onChange={handleFileChange}
+        accept="image/jpeg, image/png, image/webp"
+        multiple // Si quieres permitir varios a la vez
       />
       <div className="button-wrapper">
         <IonButton
@@ -48,7 +64,6 @@ const PublishContent: React.FC = () => {
           Upvibe
         </IonButton>
       </div>
-      {/* CARRUSEL NATIVO REACT + CSS */}
       {previews.length > 0 && (
         <div className="custom-carousel">
           {previews.map((url, index) => (

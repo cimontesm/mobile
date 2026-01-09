@@ -27,7 +27,7 @@
     text-transform: none;
     /* Quita las mayúsculas automáticas */
     /* Color de fondo */
-    --background: linear-gradient(135deg, #9611cb 0%, #fc25aa 100%);
+    --background: #9611cb;
     /* Color del texto e icono */
     --color: white;
     /* Grosor del borde si usas fill="outline" */
@@ -70,7 +70,6 @@
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
-  background: rgba(255, 255, 255, 0.5); /* Un fondo muy tenue */
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -101,7 +100,7 @@
 
 .slogan-sub {
   font-size: 0.9rem;
-  color: #999;
+  color: #7c7c7c;
   font-weight: 300;
 }
 
@@ -130,7 +129,6 @@
   font-size: 1rem;
   margin-left: 5px;
   vertical-align: middle;
-  color: #ff5f6d; /* Un punto de color de contraste */
 }
 
 .bottom-div h2::before {
@@ -138,5 +136,5 @@
   font-size: 1rem;
   margin-left: 5px;
   vertical-align: middle;
-  color: #ff5f6d; /* Un punto de color de contraste */
+
 }
