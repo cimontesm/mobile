@@ -26,33 +26,52 @@ const Tab3: React.FC = () => {
   return (
     <IonPage>
       <IonHeader className="ion-no-border" style={{ backgroundColor: 'black' }}>
-        <IonToolbar style={{ '--background': 'black' }} />
+        <IonToolbar style={{ 
+          '--background': 'black',
+          '--min-height': '0px',
+          '--padding-top': '0px',
+          '--padding-bottom': '0px',
+          height: '0px'
+        }} />
         
-        {/* ENCABEZADO CON TAMAÑOS AUMENTADOS */}
         <div style={{
-          display: 'flex', flexDirection: 'row', alignItems: 'center',
-          justifyContent: 'space-between', padding: '30px 25px',
-          borderBottom: '1px solid #333', backgroundColor: 'black', color: 'white'
+          display: 'flex', 
+          flexDirection: 'row', 
+          alignItems: 'center',
+          justifyContent: 'space-between', 
+          padding: '10px 20px 20px 25px', // 10px arriba para pegar el contenido al borde
+          borderBottom: '1px solid #333', 
+          backgroundColor: 'black', 
+          color: 'white'
         }}>
-          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '30px' }}>
+          
+          <div style={{ 
+            display: 'flex', 
+            flexDirection: 'row', 
+            alignItems: 'center', 
+            gap: 'clamp(15px, 4vw, 30px)',
+            flex: '1'
+          }}>
             
-            {/* FOTO DE PERFIL GRANDE (150px) */}
             <div style={{
-              width: '150px', height: '150px', borderRadius: '50%',
-              overflow: 'hidden', border: '3px solid #444', flexShrink: 0
+              width: 'clamp(100px, 25vw, 150px)', 
+              height: 'clamp(100px, 25vw, 150px)',
+              borderRadius: '50%',
+              overflow: 'hidden', 
+              border: '2px solid #444', 
+              flexShrink: 0
             }}>
               <img 
-                src="assets/ProfilePic.png" // Ruta corregida (sin 'public/')
+                src="assets/ProfilePic.png" 
                 alt="Profile" 
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
               />
             </div>
 
-            {/* BLOQUE DE TEXTO MÁS GRANDE */}
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
               <h2 style={{ 
                 fontFamily: "'Playfair Display', serif", 
-                fontSize: '2.2rem', // Nombre aumentado
+                fontSize: 'clamp(1.5rem, 6vw, 2.2rem)', 
                 margin: '0', 
                 fontWeight: '700',
                 color: 'white' 
@@ -60,28 +79,30 @@ const Tab3: React.FC = () => {
                 Ridellita
               </h2>
               
-              <div style={{ display: 'flex', gap: '25px', marginTop: '10px' }}>
-                <div style={{ display: 'flex', alignItems: 'baseline', gap: '6px' }}>
-                  <span style={{ fontSize: '1.4rem', fontWeight: 'bold' }}>{items.length}</span>
-                  <span style={{ fontSize: '0.9rem', color: '#aaa', textTransform: 'uppercase' }}>Vibes</span>
+              <div style={{ 
+                display: 'flex', 
+                gap: 'clamp(10px, 3vw, 25px)', 
+                marginTop: '5px'
+              }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px' }}>
+                  <span style={{ fontSize: 'clamp(1.1rem, 4vw, 1.4rem)', fontWeight: 'bold' }}>{items.length}</span>
+                  <span style={{ fontSize: 'clamp(0.7rem, 2.5vw, 0.9rem)', color: '#aaa', textTransform: 'uppercase' }}>Vibes</span>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'baseline', gap: '6px' }}>
-                  <span style={{ fontSize: '1.4rem', fontWeight: 'bold' }}>1.2k</span>
-                  <span style={{ fontSize: '0.9rem', color: '#aaa', textTransform: 'uppercase' }}>Followers</span>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px' }}>
+                  <span style={{ fontSize: 'clamp(1.1rem, 4vw, 1.4rem)', fontWeight: 'bold' }}>1.2k</span>
+                  <span style={{ fontSize: 'clamp(0.7rem, 2.5vw, 0.9rem)', color: '#aaa', textTransform: 'uppercase' }}>Followers</span>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* BOTÓN DE COMPARTIR MÁS GRANDE */}
-          <IonButton fill="clear" style={{ '--color': 'white' }}>
-            <IonIcon slot="icon-only" icon={shareOutline} style={{ fontSize: '32px' }} />
+          <IonButton fill="clear" style={{ '--color': 'white', margin: 0 }}>
+            <IonIcon slot="icon-only" icon={shareOutline} style={{ fontSize: 'clamp(28px, 5vw, 35px)' }} />
           </IonButton>
         </div>
       </IonHeader>
 
       <IonContent style={{ '--background': 'black' }}>
-        {/* GALERÍA DE POSTS */}
         <div style={{
           display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)',
           gap: '2px', padding: '2px', backgroundColor: 'black'
@@ -105,7 +126,6 @@ const Tab3: React.FC = () => {
           ))}
         </div>
 
-        {/* MODAL DETALLE */}
         <IonModal 
           isOpen={showModal} 
           onDidDismiss={() => setShowModal(false)}
@@ -128,7 +148,7 @@ const Tab3: React.FC = () => {
                   <IonCardTitle style={{ 
                     fontFamily: "'Playfair Display', serif", 
                     color: 'white', 
-                    fontSize: '2rem' 
+                    fontSize: 'clamp(1.5rem, 5vw, 2rem)' 
                   }}>
                     {selectedItem.title}
                   </IonCardTitle>
