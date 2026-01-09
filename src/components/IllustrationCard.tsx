@@ -8,6 +8,12 @@ interface Illustration {
   imgUrl: string;
 }
 
+// 1. Definimos la función de truncado aquí
+const truncateText = (text: string, maxLength = 50) => {
+  if (text.length <= maxLength) return text;
+  return text.substring(0, maxLength).trim() + "...";
+};
+
 const IllustrationCard: React.FC<{ item: Illustration }> = ({ item }) => {
   return (
     <IonCard
@@ -31,7 +37,7 @@ const IllustrationCard: React.FC<{ item: Illustration }> = ({ item }) => {
           {item.año}
         </h4>
         <p className="text-sm text-zinc-600 dark:text-zinc-400">
-          {item.description}
+          {truncateText(item.description, 50)}
         </p>
       </IonCardContent>
     </IonCard>
