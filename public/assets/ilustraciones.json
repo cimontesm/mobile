@@ -1,65 +1,149 @@
 [
   {
     "id": 1,
-    "title": "The Fool",
+    "title": "Arcano Mayor -00- Hermes",
     "año": "2025",
-    "description": "La carta del Tarot 'El Loco' representada con el dios griego de la velocidad Hermes",
-    "imgUrl": "https://lh3.googleusercontent.com/d/1GvQh_PdhnAzSlWEICOa-K00hym9IszU4"
+    "description": "Hermes, el dios mensajero y el más astuto entre los Olímpicos. No hay dios más libre que él; galopando por los cielos, cruza todos los reinos sin dignarse a obedecer órdenes ajenas.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1rMB6_hitCuQgT3gI7JQUkreipWNoV1sU"
   },
   {
     "id": 2,
-    "title": "Tears of Sorrow",
-    "año": "2022",
-    "description": "Una joven monja con hermosos ojos azules y lagrimas de sangre viajando por sus mejillas",
-    "imgUrl": "https://lh3.googleusercontent.com/d/1-qT06ArVsJjOlreKBTIg5nG25UpZfdGW"
+    "title": "Arcana Mayor -01- Circe",
+    "año": "2025",
+    "description": "La ninfa hechicera Circe, hija del titán Helios, fue desterrada por su propio padre a la isla de Eea, donde, valiéndose por sí misma, aprendió y dominó la magia utilizando tan sólo elementos proporcionados por la naturaleza.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1Ej1rGiO94f3AdNJPllxM1Os-zfM8_xJU"
   },
   {
     "id": 3,
-    "title": "Pink Jellyfish",
-    "año": "2022",
-    "description": "Una medusa rosa acomapñada de burbujas, a la deriva de la calma de un piadoso cuerpo de agua",
-    "imgUrl": "https://lh3.googleusercontent.com/d/1jFc4lMpyUcERIiRwF6FKD_VTWQZRRop-"
+    "title": "Arcana Mayor -02- Hecate",
+    "año": "2025",
+    "description": "Hécate, diosa de la brujería y guardiana de los caminos de la luz y la oscuridad, mantiene a salvo el conocimiento del mundo espiritual, liberándolo tan sólo cuando lo considera necesario.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1aq5hnHiTtOHH5ANsN-6AHWyxYn-kxfD4"
   },
   {
     "id": 4,
-    "title": "Koi Pond",
-    "año": "2023",
-    "description": "Un pez koi nadando serenamente cerca de una flor de loto situada encima de un nenufar",
-    "imgUrl": "https://lh3.googleusercontent.com/d/1SKUT6PIkRSRvHotUa8byfGVSuHFmtHV1"
+    "title": "Arcana Mayor -03- Hera",
+    "año": "2025",
+    "description": "La mismísima soberana del Olimpo, Hera, diosa del matrimonio, representa la fertilidad y la dignidad de la mujer, así como el equilibrio entre el corazón y el deber.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1XiWmKRZNAfW290wJoNMXjgXw_FbCgK6s"
   },
   {
     "id": 5,
-    "title": "Refreshing Youth",
-    "año": "2023",
-    "description": "Ilustracion insparada por el glamour de los años 50 de Hollywood mostrando la hermosura y elegancia de la dama",
-    "imgUrl": "https://lh3.googleusercontent.com/d/1CAS64iFec4ddbbGXlXr0CmGKgsC8dIc7"
+    "title": "Arcano Mayor -04- Zeus",
+    "año": "2025",
+    "description": "Zeus, dios del trueno, encarna el poder supremo y la justicia divina. Su energía irradia liderazgo, protección y dominio, recordando que el verdadero poder sólo puede ejercerse con sabiduría y responsabilidad.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/17TFy4N4AXZn7aCnCU_vMBvqnSWLUp88_"
   },
   {
     "id": 6,
-    "title": "Makima",
-    "año": "2023",
-    "description": "Una entidad angelical y demoniaca; posee unos ojos que controlan a aquellos que osan establacer contacto",
-    "imgUrl": "https://lh3.googleusercontent.com/d/1QXx9CuA4JqXBJ5LZnP-WBcV1nWWDozY-"
+    "title": "Arcana Mayor -05- Atenea",
+    "año": "2025",
+    "description": "La hija más temida de Zeus y la más imponente estratega, Atenea. Ella ha servido como guía de héroes mitológicos como Odiseo, imbuyéndolos de conocimiento espiritual y equilibrio en todas sus decisiones.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1j-CN0jy95gx5JPu9aQzDCEjqxxKc7Sgb"
   },
   {
     "id": 7,
-    "title": "Peaceful Breeze",
-    "año": "2023",
-    "description": "Una joven con cabello dorado vestida con colores vibrantes resaltada por el hermoso paisaje y atmosfera",
-    "imgUrl": "https://lh3.googleusercontent.com/d/1fQ3k2_P0u1dGyt4Fxx4GCp231MfzZwPZ"
+    "title": "Arcano Mayor -06- El Amor",
+    "año": "2025",
+    "description": "Una unión imposible entre el amor y la guerra: los amantes Ares y Afrodita. Un amor secreto, a pesar de que gobiernan terrenos opuestos y jamás estuvieron destinados a ser uno para el otro.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1hhCiLiAy0hP49U63hhieSHwDaTyzsFQg"
   },
   {
     "id": 8,
-    "title": "Mirror Dream",
-    "año": "2023",
-    "description": "Una joven vestida de blanco sonriendo a su reflejo. El color opaco y verde del baño expresa incertidumbre",
-    "imgUrl": "https://lh3.googleusercontent.com/d/1Oya_jEa0HRrs1A_Ok52geoHdctmKjdfi"
+    "title": "Arcano Mayor -07- Helios",
+    "año": "2025",
+    "description": "El titán del Sol que conduce el carro con el nombre de la misma estrella: Helios. Un titán disciplinado que tomó la dura decisión de aliarse con Zeus durante la Titanomaquia, todo para que su raza pudiera perdurar tras la guerra.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1VdosD8h9KCa5ctZQTJIGYWvU_13l5-sG"
   },
   {
     "id": 9,
-    "title": "Strings",
+    "title": "Arcano Mayor -08- Heracles",
     "año": "2025",
-    "description": "La figura de gran tamaño utiliza hilos para guiar todos los pequeños movimientos de la diminuta bailarina",
-    "imgUrl": "https://lh3.googleusercontent.com/d/1BZZCpRdaBX8WC39MJThb1vIbtIAnffUQ"
+    "description": "Heracles, uno de los héroes más importantes de la mitología. Reconocido por su coraje al enfrentarse a 12 trabajos imposibles incluyendo su victoria ante el león de Nemea.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1PQ5NObdT-r2Uc_8HOGvGeraOWQ8zcLKS"
+  },
+  {
+    "id": 10,
+    "title": "Arcano Mayor -09- Hefesto",
+    "año": "2025",
+    "description": "El dios abandonado por el Olimpo, dios del fuego y de la forja: Hefesto. Trabaja oculto en su volcán, apartado del resto de los dioses; un lugar donde goza de la libertad para forjar su propio destino.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1P7vQ0yc1bLoxOuQ78urKWM3rC4Y9yETH"
+  },
+  {
+    "id": 11,
+    "title": "Arcano Mayor -10- Pitia",
+    "año": "2025",
+    "description": "Pitia, el oráculo de Delfos; aquella que porta las profecías que guían a los héroes en sus aventuras. Nadie sabe lo que depara el futuro, y una profecía de Pitia podría traer tanto gloria como destrucción.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1Eru-CaqDk5Hgbjpj-0INxln9V7Vb80-T"
+  },
+  {
+    "id": 12,
+    "title": "Arcano Mayor -11- Temis",
+    "año": "2025",
+    "description": "Temis, la diosa de la justicia y el orden. Establece el equilibrio impartiendo justicia de manera imparcial, simbolizada por la venda que cubre sus ojos y la balanza que sostiene en sus manos.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1WvdnALumTO_j9TA7-8wjO7-QEato5qBZ"
+  },
+  {
+    "id": 13,
+    "title": "Arcano Mayor -12- Prometeo",
+    "año": "2025",
+    "description": "El titán ladrón, Prometeo, quien robó la llama del Olimpo y se la otorgó a los humanos, brindándoles conocimiento y libertad. Se sacrificó a sí mismo por un bien mayor: el despertar de la humanidad.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1lzqH_69v3DGlVAD37S8Le111sPICh6JG"
+  },
+  {
+    "id": 14,
+    "title": "Arcano Mayor -13- Hades",
+    "año": "2025",
+    "description": "El mayor de los hijos de Cronos y rey del Tártaro, Hades. Gobierna en las profundidades, guiando a las almas de los muertos hacia su eterno descanso.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1g9up3Dky6e5ky3ZtWt62VcVF8g1ZRk7A"
+  },
+  {
+    "id": 15,
+    "title": "Arcano Mayor -14- Odiseo",
+    "año": "2025",
+    "description": " El más grande de los héroes mitológicos, Odiseo. Tripuló junto a más de seiscientos hombres durante doce años para regresar a su hogar, tomando las decisiones más difíciles en su larga travesía.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1mXfCYIER-QTUkTUOUS5P3NZgggMv1T5S"
+  },
+  {
+    "id": 16,
+    "title": "Arcano Mayor -15- Cronos",
+    "año": "2025",
+    "description": "Cronos, el titán del tiempo y padre de dioses como Zeus, Poseidón y Hades. Fue consumido por sus deseos egoístas al devorar a cada uno de sus hijos, acto que daría inicio a la Titanomaquia.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1dCilWg-QyZn_ok_FTU56LqA6z7pNLqNc"
+  },
+  {
+    "id": 17,
+    "title": "Arcana Mayor -16- La Caja de Pandora",
+    "año": "2025",
+    "description": "La caja de Pandora, contenedora de todos los males del mundo. Al ser abierta, estos fueron liberados, pero lo que quedó en el fondo de la caja era nada más y nada menos que la esperanza.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/17gnSbxXTZwN6QsTygrvOyf5PY46HEzCJ"
+  },
+  {
+    "id": 18,
+    "title": "Arcana Mayor -17- Afrodita",
+    "año": "2025",
+    "description": "Afrodita, diosa del amor y la belleza, venerada por mortales y dioses por igual. Su luz brilla incluso en la oscuridad del alma, otorgando a los corazones perdidos la fuerza para amar.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1XCLO0FyDR-CxrW6k-P32uLJGWKRvUdrY"
+  },
+  {
+    "id": 19,
+    "title": "Arcana Mayor -18- Artemisa",
+    "año": "2025",
+    "description": "La diosa de la mismísima Luna, Artemisa. Siendo la señora de la caza, es capaz de imbuir miedo y confusión en sus presas al abalanzarse sobre ellas.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1_LiD4VCaVoMv8fEsYymtp1pGV85T27dD"
+  },
+  {
+    "id": 20,
+    "title": "Arcano Mayor -19- Apollo",
+    "año": "2025",
+    "description": "El dios del mismísimo Sol, Apolo. Es el señor de la música, y al tocar su lira llena los corazones de los oyentes con felicidad y energía positiva.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1jDz98JTABkDBqfK9NlCNaumOEbqtmjdm"
+  },
+  {
+    "id": 21,
+    "title": "Arcano Mayor -20- Tiresias",
+    "año": "2025",
+    "description": "El vidente de Tebas, Tiresias, quien obtuvo la capacidad de ver más allá del presente. Maldecido y bendecido a la vez, carga con el peso del conocimiento que ningún mortal debería poseer.",
+    "imgUrl": "https://lh3.googleusercontent.com/u/0/d/1jydMQupfBuLQnFX9B-R_eIyU8O0pdvga"
   }
 ]
