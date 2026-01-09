@@ -1,0 +1,142 @@
+.publish-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra horizontalmente todo */
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.publish-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.upload-btn {
+    /* Controla el ancho del botón aquí si lo quieres aún más pequeño */
+    --padding-start: 20px;
+    --padding-end: 20px;
+    text-transform: none;
+    /* Quita las mayúsculas automáticas */
+    /* Color de fondo */
+    --background: linear-gradient(135deg, #9611cb 0%, #fc25aa 100%);
+    /* Color del texto e icono */
+    --color: white;
+    /* Grosor del borde si usas fill="outline" */
+    --border-color: #6a5acd;
+}
+
+/* Contenedor del carrusel */
+.custom-carousel {
+  display: flex;
+  overflow-x: auto; /* Permite scroll horizontal */
+  scroll-snap-type: x mandatory; /* Hace el efecto de "imán" al deslizar */
+  gap: 15px;
+  padding: 20px;
+  width: 100%;
+  scrollbar-width: none; /* Oculta scrollbar en Firefox */
+}
+
+.custom-carousel::-webkit-scrollbar {
+  display: none; /* Oculta scrollbar en Chrome/Safari */
+}
+
+/* Cada tarjeta del carrusel */
+.carousel-item {
+  flex: 0 0 80%; /* Cada imagen ocupa el 80% del ancho */
+  scroll-snap-align: center; /* Se centra al soltar el dedo */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  aspect-ratio: 16 / 9;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottom-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.5); /* Un fondo muy tenue */
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@keyframes colorChange {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+.vibe-divider {
+  animation: colorChange 5s infinite linear;
+}
+
+.vibe-divider {
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  margin: 0 auto 15px;
+  border-radius: 10px;
+}
+
+.slogan-main {
+  text-transform: uppercase; /* Lo hace ver más como un eslogan */
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.slogan-sub {
+  font-size: 0.9rem;
+  color: #999;
+  font-weight: 300;
+}
+
+.bottom-div h2 {
+  font-size: 2rem;           /* Tamaño grande pero equilibrado */
+  font-weight: 800;          /* Muy negrita para que tenga personalidad */
+  margin: 10px 0;            /* Espaciado arriba y abajo */
+  letter-spacing: -1px;      /* Letras un poco más juntas (estilo moderno) */
+  
+  /* Gradiente de color en el texto */
+  background: linear-gradient(135deg, #9611cb 0%, #fc25aa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* Animación sutil para que parezca que tiene vida */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto opcional: cuando pasas el mouse o tocas */
+.bottom-div h2:hover {
+  transform: scale(1.05);
+}
+
+.bottom-div h2::after {
+  content: '▶';
+  font-size: 1rem;
+  margin-left: 5px;
+  vertical-align: middle;
+  color: #ff5f6d; /* Un punto de color de contraste */
+}
+
+.bottom-div h2::before {
+  content: '◀ ';
+  font-size: 1rem;
+  margin-left: 5px;
+  vertical-align: middle;
+  color: #ff5f6d; /* Un punto de color de contraste */
+}
