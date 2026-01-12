@@ -1,43 +1,60 @@
 import React from 'react';
 import { IonCard, IonCardContent } from '@ionic/react';
 
+// Actualizamos la interfaz para incluir el autor según tu JSON
 interface Illustration {
+  id: number;
   title: string;
   año: string;
+  autor: string; // Nueva propiedad
   description: string;
   imgUrl: string;
 }
 
-// 1. Definimos la función de truncado aquí
-const truncateText = (text: string, maxLength = 50) => {
+const truncateText = (text: string, maxLength = 22) => {
   if (text.length <= maxLength) return text;
   return text.substring(0, maxLength).trim() + "...";
 };
 
 const IllustrationCard: React.FC<{ item: Illustration }> = ({ item }) => {
+  const title_autor = truncateText(item.title + " - " + item.autor);
   return (
     <IonCard
       button
-      className="group relative overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-900 transition m-0"
+      style={{ width: '280px', margin: '16px auto', borderRadius: '20px' }}
+      className="group overflow-hidden bg-zinc-100 dark:bg-zinc-900 transition shadow-lg"
     >
-      {/* Contenedor de Imagen 1:1 */}
-      <div className="aspect-square w-full overflow-hidden">
-        <img
-          src={item.imgUrl}
-          alt={item.title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-        />
+      <div style={{ padding: '8px', paddingBottom: '0px' }}> 
+        <div style={{ borderRadius: '16px', overflow: 'hidden', aspectRatio: '1/1' }}>
+          <img
+            src={item.imgUrl}
+            alt={item.title}
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            className="transition-transform duration-500 group-hover:scale-105"
+          />
+        </div>
       </div>
 
-      <IonCardContent className="flex flex-col p-4">
-        <h3 className="text-lg font-semibold text-zinc-950 dark:text-zinc-50 leading-tight">
-          {item.title}
+      <IonCardContent style={{ textAlign: 'left', padding: '16px' }}>
+        {/* Título y Autor combinados: Title - Autor */}
+        <h3 
+          style={{ 
+            fontWeight: 'bold', 
+            fontSize: '18px', 
+            margin: '0 0 4px 0',
+            color: 'inherit',
+            display: 'block'
+          }}
+        >
+          {title_autor}
         </h3>
-        <h4 className="text-xs text-zinc-500 dark:text-zinc-400 mb-2">
+        
+        <span style={{ fontSize: '12px', color: '#71717a', display: 'block', marginBottom: '8px' }}>
           {item.año}
-        </h4>
-        <p className="text-sm text-zinc-600 dark:text-zinc-400">
-          {truncateText(item.description, 50)}
+        </span>
+        
+        <p style={{ fontSize: '14px', margin: 0, color: '#52525b', lineHeight: '1.4' }}>
+          {truncateText(item.description, 80)}
         </p>
       </IonCardContent>
     </IonCard>

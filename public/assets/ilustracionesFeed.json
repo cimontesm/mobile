@@ -1,44 +1,66 @@
 [
   {
     "id": 1,
-    "title": "Wiwiwi",
-    "año": "2025",
-    "description": "Santiago dame las imagenes (┬┬﹏┬┬) aaaaaaaa aaaaaaaaaaaa prubaaaa wiwiwiw",
-    "imgUrl": ""
+    "title": "Tears of Sorrow",
+    "año": "2022",
+    "autor": "Ride",
+    "description": "Una joven monja con hermosos ojos azules y lagrimas de sangre viajando por sus mejillas",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1-qT06ArVsJjOlreKBTIg5nG25UpZfdGW"
   },
   {
     "id": 2,
-    "title": "",
-    "año": "2025",
-    "description": "",
-    "imgUrl": ""
+    "title": "Pink Jellyfish",
+    "año": "2022",
+    "autor": "Riri",
+    "description": "Una medusa rosa acomapñada de burbujas, a la deriva de la calma de un piadoso cuerpo de agua",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1jFc4lMpyUcERIiRwF6FKD_VTWQZRRop-"
   },
   {
-    "id": 3,
-    "title": "",
-    "año": "2025",
-    "description": "",
-    "imgUrl": ""
+    "id":3,
+    "title": "Koi Pond",
+    "año": "2023",
+    "autor": "Rari",
+    "description": "Un pez koi nadando serenamente cerca de una flor de loto situada encima de un nenufar",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1SKUT6PIkRSRvHotUa8byfGVSuHFmtHV1"
   },
   {
     "id": 4,
-    "title": "",
-    "año": "2025",
-    "description": "",
-    "imgUrl": ""
+    "title": "Refreshing Youth",
+    "año": "2023",
+    "autor": "Andrea Izurieta",
+    "description": "Ilustracion insparada por el glamour de los años 50 de Hollywood mostrando la hermosura y elegancia de la dama",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1CAS64iFec4ddbbGXlXr0CmGKgsC8dIc7"
   },
   {
     "id": 5,
-    "title": "",
-    "año": "2025",
-    "description": "",
-    "imgUrl": ""
+    "title": "Makima",
+    "año": "2023",
+    "autor": "Nene",
+    "description": "Una entidad angelical y demoniaca; posee unos ojos que controlan a aquellos que osan establacer contacto",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1QXx9CuA4JqXBJ5LZnP-WBcV1nWWDozY-"
   },
   {
     "id": 6,
-    "title": "",
-    "año": "2025",
-    "description": "",
-    "imgUrl": ""
+    "title": "Peaceful Breeze",
+    "año": "2023",
+    "autor": "Aria",
+    "description": "Una joven con cabello dorado vestida con colores vibrantes resaltada por el hermoso paisaje y atmosfera",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1fQ3k2_P0u1dGyt4Fxx4GCp231MfzZwPZ"
+  },
+  {
+    "id": 7,
+    "title": "Mirror Dream",
+    "año": "2023",
+    "autor": "Nenechiro",
+    "description": "Una joven vestida de blanco sonriendo a su reflejo. El color opaco y verde del baño expresa incertidumbre",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1Oya_jEa0HRrs1A_Ok52geoHdctmKjdfi"
+  },
+  {
+    "id": 8,
+    "title": "Strings",
+    "año": "Andreita",
+    "autor": "Ride",
+    "description": "La figura de gran tamaño utiliza hilos para guiar todos los pequeños movimientos de la diminuta bailarina",
+    "imgUrl": "https://lh3.googleusercontent.com/d/1BZZCpRdaBX8WC39MJThb1vIbtIAnffUQ"
   }
 ]
