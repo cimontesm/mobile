@@ -105,17 +105,20 @@
 }
 
 .bottom-div h2 {
-  font-size: 2rem;           /* Tamaño grande pero equilibrado */
-  font-weight: 800;          /* Muy negrita para que tenga personalidad */
-  margin: 10px 0;            /* Espaciado arriba y abajo */
-  letter-spacing: -1px;      /* Letras un poco más juntas (estilo moderno) */
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 10px 0;
+  letter-spacing: -1px;
   
   /* Gradiente de color en el texto */
   background: linear-gradient(135deg, #9611cb 0%, #fc25aa 100%);
+  
+  /* CORRECCIÓN AQUÍ: Añadimos la propiedad estándar */
   -webkit-background-clip: text;
+  background-clip: text; 
+  
   -webkit-text-fill-color: transparent;
   
-  /* Animación sutil para que parezca que tiene vida */
   transition: transform 0.3s ease;
 }
 

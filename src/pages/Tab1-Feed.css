@@ -1,0 +1,16 @@
+ion-tab-bar {
+  /* Color del icono y texto cuando la pestaña está seleccionada */
+  --color-selected: #a855f7; 
+  
+  /* Color cuando no está seleccionada (opcional, para que resalte más el cambio) */
+  --color: #666; 
+  
+  /* Aseguramos que el fondo sea negro para que combine con tu feed */
+  --background: #000;
+  border-top: none;
+}
+
+/* Efecto de brillo opcional para el icono activo */
+ion-tab-button.tab-selected ion-icon {
+  filter: drop-shadow(0 0 5px rgba(168, 85, 247, 0.8));
+}
